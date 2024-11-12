@@ -11,9 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Colocviu1_2"
-        tools:targetApi="31">
+        tools:targetApi="35">
+
+        <service
+            android:name=".Colociu1_2Service"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"/>
+
         <activity
-            android:name=".MainActivity"
+            android:name=".Coloviu1_2MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Coloviu1_2SecondaryActivity" />
+
     </application>
 
 </manifest>

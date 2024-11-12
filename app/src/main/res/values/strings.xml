@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Colocviu1_2</string>
+    <string name="next_term">Next Term</string>
+    <string name="all_terms">All Terms</string>
+    <string name="add">add</string>
+    <string name="compute">compute</string>
 </resources>
